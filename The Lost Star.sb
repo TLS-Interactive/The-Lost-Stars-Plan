@@ -1,0 +1,841 @@
+wcolourdefault = "white"
+TextWindow.ForegroundColor = wcolourdefault
+mel = "green"
+item = "yellow"
+angry_gus = "red"
+
+
+'This is a submenu closure template!
+
+'TextWindow.Clear()
+'TextWindow.WriteLine("Sorry Mr/Miss Beta tester but this section is unfinished as of yet! please contact the email in credits or the creator personally to make additions to this area!")
+'Program.Delay(10000)
+'TextWindow.Clear()
+
+'Basic death script for duplication
+
+'TextWindow.ForegroundColor=angry_gus
+'TextWindow.WriteLine("As you start to die from your injuries the ship rocks...")
+'Program.Delay(2000)
+'TextWindow.WriteLine("And your limp body is thrown into the nearest airlock..")
+'Program.Delay(2000)
+'TextWindow.WriteLine("Then the door blows off its hinges... Ejecting you into space")
+'Program.Delay(2000)
+'TextWindow.Clear()
+'TextWindow.WriteLine("                                    YOU DIED")
+'Program.Delay(2000)
+'TextWindow.WriteLine("                           (game over man... game over)")
+'Program.Delay(2000)
+'Program.End()
+
+Sub easteregg
+  TextWindow.Clear()
+  TextWindow.WriteLine("-_- congratulations you broke the game Dumbass")
+  TextWindow.WriteLine("But hey if your seeing this you have a good eye for detail!")
+  TextWindow.WriteLine("Please subscribe to Captain Cheesecake to support this game!")
+  TextWindow.WriteLine("Or drop me an email at oliverfletcher18@btinternet.com (dont press anything!)")
+  Program.Delay(10000)
+EndSub
+
+Sub easteregg2
+  TextWindow.Clear()
+  TextWindow.WriteLine("Congratulations you just entered the worst year since 1935...")
+  Program.Delay(2000)
+  TextWindow.WriteLine("Why?... Well I guess we will never know why...")
+  Program.Delay(2000)
+  TextWindow.WriteLine("just.... get back to the game...")
+  Program.Delay(2000)
+EndSub
+
+Sub Begin
+  TextWindow.Clear()
+  TextWindow.WriteLine("")
+  TextWindow.WriteLine("                               Cheesecake game corp")
+  Program.Delay(2000)
+  TextWindow.WriteLine("                                     PRESENTS")
+  Program.Delay(2000)
+  TextWindow.WriteLine("                                   A loading bar")
+  Program.Delay(1000)
+EndSub
+Sub Begin1
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading")
+  TextWindow.WriteLine("                                       8%")
+  TextWindow.WriteLine("                                  [=          ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                   Loading -")
+  TextWindow.WriteLine("                                      16%")
+  TextWindow.WriteLine("                                  [==         ]")
+  TextWindow.WriteLine("              Put your name as harambe when gus asks for easter egg!")
+  Program.Delay(1500)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                   Loading - -")
+  TextWindow.WriteLine("                                       24%")
+  TextWindow.WriteLine("                                   [===        ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                   Loading - - -")
+  TextWindow.WriteLine("                                        32%")
+  TextWindow.WriteLine("                                   [====       ]")
+EndSub
+Sub Begin2
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading")
+  TextWindow.WriteLine("                                      40%")
+  TextWindow.WriteLine("                                  [=====      ]")
+  TextWindow.WriteLine("                   What do you think? more facts/stuff here?")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                   Loading -")
+  TextWindow.WriteLine("                                      48%")
+  TextWindow.WriteLine("                                 [======     ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                  Loading - -")
+  TextWindow.WriteLine("                                      56%")
+  TextWindow.WriteLine("                                 [=======    ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                 Loading - - -")
+  TextWindow.WriteLine("                                      64%")
+  TextWindow.WriteLine("                                 [========   ]")
+EndSub
+Sub Begin3
+  Sound.Stop("Z:\Game Download Files\music\menumusic2.mp3")
+  Sound.Stop("C:\Game Download Files\music\menumusic2.mp3")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading")
+  TextWindow.WriteLine("                                      72%")
+  TextWindow.WriteLine("                                  [========  ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading -")
+  TextWindow.WriteLine("                                       80%")
+  TextWindow.WriteLine("                                  [========== ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading - -")
+  TextWindow.WriteLine("                                        88%")
+  TextWindow.WriteLine("                                   [========== ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading - - -")
+  TextWindow.WriteLine("                                         96%")
+  TextWindow.WriteLine("                                    [========== ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading - - -")
+  TextWindow.WriteLine("                                         98%")
+  TextWindow.WriteLine("                                    [========== ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    Loading - - -")
+  TextWindow.WriteLine("                                         99%")
+  TextWindow.WriteLine("                                    [========== ]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                       DONE!")
+  TextWindow.WriteLine("                                   [===========]")
+  Program.Delay(1000)
+  TextWindow.Clear()
+EndSub
+
+TextWindow.WriteLine("                                    Start?(Y/N)")
+start =TextWindow.Read()
+If start = "Y" Then
+  Goto begin
+ElseIf start = "y" then
+  Goto begin
+Else
+  Program.End()
+EndIf
+
+begin:
+
+Sound.Play("Z:\Game Download Files\music\Loading.mp3")
+Sound.Play("C:\Game Download Files\music\Loading.mp3")
+Begin()
+Begin1()
+Begin2()
+Program.Delay(100)
+'Sound.Play("Z:\Game Download Files\music\menumusic creepy.mp3")
+'Sound.Play("C:\Game Download Files\music\menumusic creepy.mp3")
+Begin3()
+menu:
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("                   Welcome to The Last Ship. Version 0.0.11 Alpha")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("                  ALPHA VERSION----Distribute with permission only")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("                (make sure that spelling is correct, Don't use caps)")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("                                       MENU")
+TextWindow.WriteLine("                                      <start>")
+TextWindow.WriteLine("                                  --->credits<---")
+TextWindow.WriteLine("                                     <options>")
+'TextWindow.WriteLine("                                      <Saves>")
+TextWindow.WriteLine("                                      <close>")
+
+menu = TextWindow.Read()
+If menu = "start" Then
+  Goto start
+ElseIf menu = "saves" then
+  Goto password
+ElseIf menu = "options" then
+  Goto options
+ElseIf menu = "credits" Then
+  Goto credit
+Else 
+  Program.End()
+EndIf
+
+password:
+TextWindow.Clear()
+TextWindow.WriteLine("Hello and welcome to the Save Files!")
+TextWindow.WriteLine("")
+Program.Delay(1500)
+TextWindow.WriteLine("Please enter a save code you haver found in-game...")
+TextWindow.WriteLine("     (or type back to go to the main menu)")
+password = TextWindow.Read()
+If password = "0000" Then
+  TextWindow.Clear()
+  Goto jump1
+ElseIf password = "back" then
+  TextWindow.Clear()
+  Goto menu
+ElseIf password = "2016" then
+  TextWindow.Clear()
+  easteregg2()
+  Goto password
+ElseIf password = "1111" then
+  TextWindow.Clear()
+  Goto jump2
+Else
+EndIf
+
+
+'0.0.6 extension unit
+options:'Option menu
+TextWindow.Clear()
+TextWindow.WriteLine("Options")
+TextWindow.WriteLine("Use the circled letter to choose and use caps")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Remember that if you make the text and background the same, the game will break!")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("(B)ackground colour")
+TextWindow.WriteLine("(T)ext colour")
+TextWindow.WriteLine("(M)enu")
+optionmenu =TextWindow.Read()
+If optionmenu = "M" Then
+  TextWindow.Clear()
+  Goto menu
+ElseIf optionmenu = "B" then
+  Goto BGCOLOUR
+Else
+  Goto TCOLOUR
+EndIf
+
+BGCOLOUR:'background color adjuster
+TextWindow.Clear()
+TextWindow.WriteLine("Background Colour Menu")
+TextWindow.WriteLine("(W)hite")
+TextWindow.WriteLine("(B)lack")
+TextWindow.WriteLine("(BL)ue")
+bgcolour=TextWindow.Read()
+If bgcolour = "W" Then
+  TextWindow.BackgroundColor = "white"
+  TextWindow.WriteLine("Background colour set to WHITE")
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto options
+ElseIf bgcolour = "B" then
+  TextWindow.BackgroundColor = "black"
+  TextWindow.WriteLine("Background colour set to BLACK")
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto options
+Else
+  TextWindow.BackgroundColor = "Blue"
+  TextWindow.WriteLine("Background colour set to BLUE")
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto options
+EndIf
+
+TCOLOUR: 'text color adjuster
+TextWindow.Clear()
+TextWindow.WriteLine("Text Colour Menu")
+TextWindow.WriteLine("(W)hite")
+TextWindow.WriteLine("(B)lack")
+TextWindow.WriteLine("(BL)ue")
+wcolourdefault=TextWindow.Read()
+If wcolourdefault = "W" Then
+  TextWindow.ForegroundColor = "white"
+  TextWindow.WriteLine("Text colour set to WHITE")
+  wcolourdefault="white"
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto options
+ElseIf wcolourdefault = "B" then
+  TextWindow.ForegroundColor = "black"
+  TextWindow.WriteLine("Text colour set to BLACK")
+  wcolourdefault="black"
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto options
+Else
+  TextWindow.ForegroundColor = "Blue"
+  TextWindow.WriteLine("Text colour set to BLUE")
+  wcolourdefault="blue"
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto options
+EndIf
+
+credit: 'credits
+TextWindow.Clear()
+TextWindow.WriteLine("          Cheesecake Corp is:")
+TextWindow.WriteLine("")
+Program.Delay(1500)
+TextWindow.WriteLine("        Oliver Fletcher   CEO")
+Program.Delay(1500)
+TextWindow.WriteLine("        Harry Shakleton   Story Designer")
+Program.Delay(1500)
+TextWindow.WriteLine("        Alex Thomas       Story Editor")
+Program.Delay(1500)
+TextWindow.WriteLine("        Felix Argyle      Coder")
+Program.Delay(1500)
+TextWindow.WriteLine("        Gabriel Lawless   Coder")
+Program.Delay(1500)
+TextWindow.WriteLine("        Josh Marks        Coder")
+Program.Delay(1500)
+TextWindow.WriteLine("        Thomas Stray      Beta Tester")
+Program.Delay(1500)
+TextWindow.WriteLine("        Chloe Hazeldene   Beta Tester")
+Program.Delay(1500)
+TextWindow.WriteLine("        Joe Edey          Beta Tester/Coder")
+Program.Delay(1500)
+TextWindow.WriteLine("        Max Mclntyre      Alpha Tester")
+Program.Delay(1500)
+TextWindow.WriteLine("        Sydney Kennelly   Beta Tester")
+Program.Delay(1500)
+TextWindow.WriteLine("        Tobias Gaunt      Beta Tester")
+Program.Delay(1500)
+TextWindow.WriteLine("        Charlie Debanam   Alpha Tester")
+Program.Delay(1500)
+TextWindow.WriteLine("        Jon Tarifa        Alpha Tester")              
+Program.Delay(5000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Thank you to everyone's family and friends For supporting us during this proccess!")
+TextWindow.WriteLine("")
+Program.Delay(1000)
+TextWindow.WriteLine("Any issues or feedback please contact oliverfletcher18@btinternet.com")
+'TextWindow.WriteLine("DON'T PRESS ENTER or the game crashes")
+Program.Delay(2500)
+TextWindow.Clear()
+Goto menu
+
+start:
+Sound.Stop("Z:\Game Download Files\music\Loading.mp3")
+Sound.Stop("C:\Game Download Files\music\Loading.mp3")
+TextWindow.Clear()
+TextWindow.WriteLine("ah.. Your awake!")
+TextWindow.WriteLine("(use the corresponding letters in lower case to choose)")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("A. what?")
+TextWindow.WriteLine("B. Who are you?")
+TextWindow.WriteLine("C. ...")
+waking1 = TextWindow.Read()
+
+If waking1 = "a" Then
+  Goto one
+ElseIf waking1 ="c" then
+  Goto one
+Else
+  Goto two
+EndIf
+
+one:
+TextWindow.Clear()
+TextWindow.WriteLine("Yes.. Understandable in your condition... to be disorientated")
+Program.Delay(1000)
+TextWindow.WriteLine("Anyway.. I'm GUS...")
+Goto two2
+
+two:
+jump1:
+TextWindow.Clear()
+'TextWindow.WriteLine("Password--- 0000")
+TextWindow.WriteLine("oh sorry.. I'm GUS...")
+Program.Delay(1000)
+two2:
+TextWindow.WriteLine("And you?")
+name = TextWindow.Read()
+If name = "harambe" Then
+  easteregg()
+  Goto name
+Else 
+  Goto name
+EndIf
+name:
+TextWindow.Clear()
+TextWindow.Write("Well... welcome to Lost Star ")
+TextWindow.Write(name)
+Program.Delay(1500)
+TextWindow.WriteLine(" ...or what's left of it.")
+Program.Delay(1000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("A. What Happened?")
+TextWindow.WriteLine("B. The what!?")
+TextWindow.WriteLine("C. ...")
+tfq = TextWindow.Read()
+If tfq = "a" Then
+  Goto question 
+ElseIf tfq = "b" then
+  Goto question
+Else 
+  Goto quiet
+EndIf
+'0.0.5 extension unit
+quiet:
+TextWindow.Clear()
+TextWindow.WriteLine("Just full of questions you are...")
+Program.Delay(1500)
+TextWindow.WriteLine("Anyway the main reactor was hit and had to be ejected before it blew...")
+Program.Delay(2500)
+TextWindow.WriteLine("They waited too long and the explosion hit the hull...")
+Goto explosion
+
+question:
+TextWindow.Clear()
+TextWindow.WriteLine("the Lost Star is a starship... seen some major battles in its time...")
+Program.Delay(1500)
+TextWindow.WriteLine("The main reactor was hit and had to be ejected before it blew...")
+Program.Delay(2500)
+TextWindow.WriteLine("They waited too long and the explosion hit the hull...")
+
+explosion:
+Program.Delay(5000)
+TextWindow.WriteLine("All those lives.....")
+Program.Delay(400)
+TextWindow.Clear()
+TextWindow.Write("Most decks, the bridge, medbay and engineering are vented you will need a ")
+TextWindow.ForegroundColor = "yellow"
+TextWindow.Write("Space suit")
+TextWindow.ForegroundColor = wcolourdefault
+TextWindow.WriteLine(" to enter these areas")
+Program.Delay(1500)
+
+
+'0.0.7 extension unit
+TextWindow.WriteLine("")
+TextWindow.ForegroundColor = "green"
+TextWindow.Write("you: ")
+TextWindow.ForegroundColor = wcolourdefault 
+TextWindow.WriteLine("I guess we better go find one...")
+Program.Delay(1500)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("GUS: Or we could float endlessly in space if thats what you want...")
+Program.Delay(1500)
+jump2:
+TextWindow.WriteLine("so where do you try first?")
+firstchoice:
+'TextWindow.WriteLine("Password--- 1111")
+TextWindow.WriteLine("(A).Main corridor(straight)")
+TextWindow.WriteLine("(B).Store B6(left)")
+TextWindow.WriteLine("(C).Switchboard cupboard C35(right)")
+wp1= TextWindow.Read()
+If wp1 = "a" Then 
+  Goto corridor1
+ElseIf wp1 = "b" Then
+  Goto storeB6
+Else
+  Goto sbC35
+EndIf
+'0.0.8 extension unit
+sbC35:
+TextWindow.Clear()
+TextWindow.WriteLine("It's a box on a wall?")
+Program.Delay(1000)
+TextWindow.WriteLine("Huh... Locked")
+Program.Delay(1000)
+TextWindow.WriteLine("should have known...")
+Program.Delay(1000)
+If fuse = 1 Then
+  Goto fusenothere
+Else
+  Goto fuseishere
+EndIf
+TextWindow.WriteLine("Oh... A fuse on the floor")
+Program.Delay(1000)
+fuseishere:
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Pick it up?")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("(A)Yes")
+TextWindow.WriteLine("(B)No")
+fuse = TextWindow.Read()
+If fuse = "a" Then
+  fusepickup = 1
+  TextWindow.Clear()
+  TextWindow.ForegroundColor="yellow"
+  TextWindow.WriteLine("FUSE GET!")
+  TextWindow.ForegroundColor=wcolourdefault
+  Program.Delay(2000)
+  goto firstchoice 
+else
+  fusepickup = 0
+  TextWindow.Clear()
+  TextWindow.WriteLine("=You left the fuse=")
+  Program.Delay(2000)
+  goto firstchoice
+EndIf
+fusenothere:
+TextWindow.Clear()
+TextWindow.WriteLine("=You left the fusebox=")
+Program.Delay(2000)
+Goto firstchoice
+storeB6:
+TextWindow.Clear()
+TextWindow.WriteLine("=You walk Left into a small storage cupboard=")
+Program.Delay(1500)
+TextWindow.WriteLine("")
+sb6m:
+TextWindow.WriteLine("(A)Search the floor")
+TextWindow.WriteLine("(B)Search the shelves")
+TextWindow.WriteLine("(C)Search the ceiling")
+TextWindow.WriteLine("(D)Leave")
+storeb6=TextWindow.Read()
+If storeb6 ="a" Then
+  Goto A
+ElseIf storeb6 = "d" then
+  TextWindow.WriteLine("")
+  TextWindow.WriteLine("=You leave the storage room=")
+  Program.Delay(2500)
+  TextWindow.Clear()
+  Goto firstchoice
+ElseIf storeb6 = "b" then
+  Goto B
+ElseIf storeb6 = "c" then
+  Goto C
+Else
+  Goto firstchoice
+EndIf
+A:
+TextWindow.Clear()
+TextWindow.WriteLine("Just a couple of empty boxes... not much")
+Program.Delay(2000)
+TextWindow.Clear()
+goto sb6m
+
+B:
+TextWindow.Clear()
+TextWindow.WriteLine("nothing....")
+Program.Delay(1500)
+TextWindow.WriteLine("nothing....")
+Program.Delay(1500)
+If screwdriver = 1 Then
+  Goto screwdrivernothere
+Else
+  Goto screwdriverishere
+EndIf
+screwdriverishere:
+TextWindow.Write("noth- Oh... A ")
+TextWindow.ForegroundColor = "yellow"
+TextWindow.Writeline("Screwdriver")
+TextWindow.ForegroundColor = wcolourdefault
+TextWindow.WriteLine("")
+TextWindow.WriteLine("(A)Pick it up")
+TextWindow.WriteLine("(B)Nope")
+screwdriverget = TextWindow.Read()
+If screwdriverget = "a" Then
+  screwdriver=1
+  TextWindow.Clear()
+  TextWindow.ForegroundColor= "yellow"
+  TextWindow.WriteLine("SCREWDRIVER GET!")
+  TextWindow.WriteLine("GUS: Why did you say that?.. just... why?")
+  TextWindow.ForegroundColor= wcolourdefault
+  Program.Delay(2000)
+  Goto sb6m
+ElseIf screwdriverget = "b" then
+  screwdriver=0
+  TextWindow.Clear()
+  TextWindow.WriteLine("Meh, not important right now")
+  Program.Delay(2000)
+  Goto sb6m
+EndIf
+screwdrivernothere:
+TextWindow.Write(" Oh... A Huge pile of... NOTHING ")
+Program.Delay(1500)
+Goto sb6m
+C:
+TextWindow.Clear()
+TextWindow.WriteLine("OOOH a vent! how interesting!")
+Program.Delay(2500)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Awww... Can't reach it ")
+Program.Delay(2000)
+TextWindow.WriteLine("GUS:Maybe you should find a ladder?")
+Program.Delay(2000)
+TextWindow.Clear()
+goto sb6m
+
+corridor1:
+'TextWindow.WriteLine("Thank you for playing the demo! and please support the developer!")'remove this
+'Program.Delay(10000)
+'Program.End()
+
+'0.0.9 extension
+TextWindow.Clear()
+TextWindow.WriteLine("=You walked down the corridor=")
+Program.Delay(1500)
+TextWindow.WriteLine("GUS:Ummm... "+name+"?")
+Program.Delay(1000)
+TextWindow.WriteLine("(A)Ignore")
+TextWindow.WriteLine("(B)What?")
+ignore = TextWindow.Read()
+If ignore = "a" Then
+  Goto ignore
+EndIf
+ask:
+TextWindow.Clear()
+TextWindow.ForegroundColor = "re"
+TextWindow.Write("YOU: ")
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.WriteLine("What is it?")
+Program.Delay(1000)
+TextWindow.ForegroundColor = "red"
+TextWindow.WriteLine("GUS: Err... we shouldn't be here...")
+Program.Delay(1500)
+TextWindow.ForegroundColor = wcolourdefault
+TextWindow.Write("YOU:")
+TextWindow.WriteLine(" What?")
+Program.Delay(1000)
+TextWindow.ForegroundColor = "red"
+TextWindow.WriteLine("GUS: We should go back...")
+Program.Delay(1500)
+TextWindow.WriteLine("GUS: That Storage room looked nice...")
+Program.Delay(1500)
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.Write("YOU: ")
+TextWindow.WriteLine("Why should I...")
+goto explosion2
+
+ignore:
+TextWindow.Clear()
+TextWindow.Write("GUS: Sir... ")
+explosion2:
+
+Program.Delay(2000)
+TextWindow.Clear()
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("=The corridor lurches to one side as you hear an explosion somewhere=")
+Program.Delay(500)
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.Write("YOU: ")
+TextWindow.WriteLine("WAA..")
+Program.Delay(1000)
+TextWindow.ForegroundColor = "red"
+TextWindow.Write("GUS: You sh0uld...")
+textwindow.WriteLine("have 1ist3ned...")
+Program.Delay(1000)
+TextWindow.ForegroundColor = "green"
+TextWindow.WriteLine("=You black-out=")
+Program.Delay(5000)
+TextWindow.Clear()
+Program.Delay(5000)
+TextWindow.ForegroundColor="green"
+TextWindow.Write("???: ")
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.WriteLine("Hey...")
+Program.Delay(1000)
+TextWindow.ForegroundColor = "green"
+TextWindow.Write("???: ")
+TextWindow.ForegroundColor = wcolourdefault
+TextWindow.WriteLine("HEY, Get up!")
+
+TextWindow.WriteLine("(A) Wha...")
+TextWindow.WriteLine("(B) Who are you?")
+TextWindow.WriteLine("(C) ...")
+getup=TextWindow.Read()
+If getup = "a" then
+  Goto pain
+ElseIf getup = "b" then
+  Goto smithers
+Else
+  Goto silence
+EndIf
+
+silence:
+TextWindow.Clear()
+TextWindow.ForegroundColor= "green"
+TextWindow.Write("???: Damn...")
+Program.Delay(1000)
+TextWindow.Write(" it must have...")
+Program.Delay(1000)
+TextWindow.WriteLine(" killed him?")
+Program.Delay(2000)
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.WriteLine("(A)I'm not dead!")
+TextWindow.WriteLine("(B)Who's asking?")
+TextWindow.WriteLine("(C)...")
+read=TextWindow.Read()
+If read = "a" Then
+  Goto apology
+ElseIf read="b" then
+  Goto smithers
+else
+  TextWindow.Clear()
+  TextWindow.WriteLine("He leaves thinking you are dead...")
+  Program.Delay(2000)
+  TextWindow.ForegroundColor=angry_gus
+  TextWindow.WriteLine("As you start to die from your injuries and the ship rocks...")
+  Program.Delay(2000)
+  TextWindow.WriteLine("And your limp body is thrown into the nearest airlock..")
+  Program.Delay(2000)
+  TextWindow.WriteLine("Then the door blows off its hinges... Ejecting you into space")
+  Program.Delay(2000)
+  TextWindow.Clear()
+  TextWindow.WriteLine("                                    YOU DIED")
+  Program.Delay(2000)
+  TextWindow.WriteLine("                           (game over man... game over)")
+  Program.Delay(2000)
+  Program.End()
+EndIf
+
+apology:
+TextWindow.Clear()
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("Oh... Terribly sorry but I don't have much time...")
+Goto smithers2
+pain:
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("We don't have much time...")
+
+smithers:
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("Oh... My apologies")
+Program.Delay(1000)
+
+smithers2:
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("My Name is Smithers...")
+Program.Delay(1000)
+TextWindow.WriteLine("My job is... WAS... the backup AI...")
+Program.Delay(1000)
+TextWindow.WriteLine("With GUS offline for repairs I can talk...")
+Program.Delay(1000)
+TextWindow.Write("But not for long... he reboots in ")
+Program.delay(1000)
+TextWindow.ForegroundColor = "red"
+TextWindow.WriteLine("5.0986 Minutes")
+Program.Delay(1000)
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("")
+TextWindow.WriteLine("So if you have any questions...")
+Program.Delay(1000)
+TextWindow.Clear()
+time = "5 minutes"
+list1 = ""
+Goto menu2
+timepass1:
+time = "4 minutes"
+list1 = "(old)"
+Goto menu2
+timepass2:
+time = "3 minutes"
+list1 = "(old)"
+Goto menu2
+timepass3:
+time = "1 minutes"
+list1 = "(old)"
+Goto menu2
+menu2:
+TextWindow.ForegroundColor="red"
+TextWindow.WriteLine("Time Remaining: "+ time)
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("So if you have any questions...")
+TextWindow.WriteLine("")
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.WriteLine("(A)Where am I REALLY?"+list1)
+TextWindow.WriteLine("(B)What just happened?"+list2)
+TextWindow.WriteLine("(C)How do I get out of here?")
+read = TextWindow.Read()
+If read= "a" Then
+  Goto truth
+ElseIf read = "b" then
+  Goto recent
+Else
+  Goto escape
+EndIf
+
+truth:
+TextWindow.Clear()
+TextWindow.Write("You are on the ")
+Program.Delay(1000)
+TextWindow.ForegroundColor = "yellow"
+TextWindow.Write("'Thalasa'")
+TextWindow.ForegroundColor="green"
+Program.Delay(1000)
+TextWindow.WriteLine("Medical station... But the logs are corrupted")
+TextWindow.WriteLine("I don't know much else...")
+Program.Delay(3000)
+TextWindow.Clear()
+time = "4 minutes"
+Goto menu3
+timepass11:
+time = "3 minutes"
+Goto menu3
+timepass22:
+time = "1 minutes"
+Goto menu3
+menu3:
+TextWindow.ForegroundColor="red"
+TextWindow.WriteLine("Time Remaining: "+ time)
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("So if you have any questions...")
+TextWindow.WriteLine("")
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.WriteLine("(A)GUS lied?(NEW)")
+TextWindow.WriteLine("(B)What just happened?")
+TextWindow.WriteLine("(C)How do I get out of here?")
+read = TextWindow.Read()
+If read= "a" Then
+  Goto truth2
+ElseIf read = "b" then
+  Goto recent
+Else
+  Goto escape
+EndIf
+truth2:
+TextWindow.Clear()
+TextWindow.WriteLine("Wellll... not really...")
+Program.Delay(1000)
+TextWindow.WriteLine("The station is made out of old parts...")
+Program.Delay(1000)
+TextWindow.WriteLine("So maybe he found an old data recorder and thinks he is that ship?")
+Program.Delay(3000)
+TextWindow.Clear()
+list1 = "(old)"
+Goto timepass2
+
+recent:
+TextWindow.Clear()
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("Ah... Yes... That...")
+Program.Delay(1000)
+TextWindow.WriteLine("This is an older part of the station and that explosion was some old gas pipes that had just a bit of feedback...")
+Program.Delay(2000)
+TextWindow.ForegroundColor=wcolourdefault
+TextWindow.WriteLine("YOU: LITTLE!?... You don't say?")
+Program.Delay(1000)
+TextWindow.ForegroundColor="green"
+TextWindow.WriteLine("also it seems that you lost your fuse...")
+fuse=0
+list2="(OLD)"
+Goto menu2
+escape:
